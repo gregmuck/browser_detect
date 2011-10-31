@@ -53,4 +53,4 @@ module BrowserDetect
   end
 end
 
-require 'railtie' if defined? Rails
+require 'railtie' if defined?(Rails) && defined?(Rails::Railtie)
